@@ -14,6 +14,8 @@
 		42D6829D1E2230A900018F90 /* TTRuntimeDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42D6829B1E2230A900018F90 /* TTRuntimeDemo.xcdatamodeld */; };
 		42D6829F1E2230A900018F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D6829E1E2230A900018F90 /* Assets.xcassets */; };
 		42D682A21E2230A900018F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D682A01E2230A900018F90 /* LaunchScreen.storyboard */; };
+		42D682AB1E22316B00018F90 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D682AA1E22316B00018F90 /* Father.m */; };
+		42D682AE1E2254EE00018F90 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D682AD1E2254EE00018F90 /* Son.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		42D6829E1E2230A900018F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42D682A11E2230A900018F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42D682A31E2230A900018F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D682A91E22316B00018F90 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		42D682AA1E22316B00018F90 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		42D682AC1E2254EE00018F90 /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		42D682AD1E2254EE00018F90 /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				42D682931E2230A900018F90 /* AppDelegate.m */,
 				42D682951E2230A900018F90 /* ViewController.h */,
 				42D682961E2230A900018F90 /* ViewController.m */,
+				42D682A91E22316B00018F90 /* Father.h */,
+				42D682AA1E22316B00018F90 /* Father.m */,
+				42D682AC1E2254EE00018F90 /* Son.h */,
+				42D682AD1E2254EE00018F90 /* Son.m */,
 				42D682981E2230A900018F90 /* Main.storyboard */,
 				42D6829E1E2230A900018F90 /* Assets.xcassets */,
 				42D682A01E2230A900018F90 /* LaunchScreen.storyboard */,
@@ -153,10 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D682AE1E2254EE00018F90 /* Son.m in Sources */,
 				42D682971E2230A900018F90 /* ViewController.m in Sources */,
 				42D682941E2230A900018F90 /* AppDelegate.m in Sources */,
 				42D682911E2230A900018F90 /* main.m in Sources */,
 				42D6829D1E2230A900018F90 /* TTRuntimeDemo.xcdatamodeld in Sources */,
+				42D682AB1E22316B00018F90 /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

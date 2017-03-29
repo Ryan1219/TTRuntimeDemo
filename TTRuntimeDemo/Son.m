@@ -10,4 +10,50 @@
 
 @implementation Son
 
+- (void)testMethod {
+    
+    NSLog(@"-----%s---",__func__);
+}
+
+- (void)newTestMethod {
+    
+    NSLog(@"-----%s---",__func__);
+}
+
+- (void)config {
+    
+    NSLog(@"-----%s---",__func__);
+}
+
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,4 +10,11 @@
 
 @interface Son : NSObject
 
+
+- (void)testMethod;
+
+- (void)newTestMethod;
+
+- (void)config;
+
 @end
