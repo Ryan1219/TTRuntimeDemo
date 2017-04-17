@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TTSecondViewController.h"
 #import <objc/runtime.h>
 #import "Father.h"
 
@@ -20,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     
     Father *father = [[Father alloc] init];
 //    [father performSelector:@selector(testMethod)];
@@ -188,10 +191,28 @@ void testFunc(){
     NSLog(@"-------testFunc---");
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    TTSecondViewController *vc = [[TTSecondViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		427FFA861EA4567B00D12696 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FFA851EA4567B00D12696 /* UIViewController+Extension.m */; };
+		427FFA891EA45BBD00D12696 /* TTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FFA881EA45BBD00D12696 /* TTSecondViewController.m */; };
+		427FFA8C1EA45BCA00D12696 /* TTThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FFA8B1EA45BCA00D12696 /* TTThirdViewController.m */; };
 		42D682911E2230A900018F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D682901E2230A900018F90 /* main.m */; };
 		42D682941E2230A900018F90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D682931E2230A900018F90 /* AppDelegate.m */; };
 		42D682971E2230A900018F90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D682961E2230A900018F90 /* ViewController.m */; };
@@ -19,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		427FFA841EA4567B00D12696 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		427FFA851EA4567B00D12696 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		427FFA871EA45BBD00D12696 /* TTSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSecondViewController.h; sourceTree = "<group>"; };
+		427FFA881EA45BBD00D12696 /* TTSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSecondViewController.m; sourceTree = "<group>"; };
+		427FFA8A1EA45BCA00D12696 /* TTThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTThirdViewController.h; sourceTree = "<group>"; };
+		427FFA8B1EA45BCA00D12696 /* TTThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTThirdViewController.m; sourceTree = "<group>"; };
 		42D6828C1E2230A900018F90 /* TTRuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTRuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D682901E2230A900018F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42D682921E2230A900018F90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,10 +79,16 @@
 				42D682931E2230A900018F90 /* AppDelegate.m */,
 				42D682951E2230A900018F90 /* ViewController.h */,
 				42D682961E2230A900018F90 /* ViewController.m */,
+				427FFA871EA45BBD00D12696 /* TTSecondViewController.h */,
+				427FFA881EA45BBD00D12696 /* TTSecondViewController.m */,
+				427FFA8A1EA45BCA00D12696 /* TTThirdViewController.h */,
+				427FFA8B1EA45BCA00D12696 /* TTThirdViewController.m */,
 				42D682A91E22316B00018F90 /* Father.h */,
 				42D682AA1E22316B00018F90 /* Father.m */,
 				42D682AC1E2254EE00018F90 /* Son.h */,
 				42D682AD1E2254EE00018F90 /* Son.m */,
+				427FFA841EA4567B00D12696 /* UIViewController+Extension.h */,
+				427FFA851EA4567B00D12696 /* UIViewController+Extension.m */,
 				42D682981E2230A900018F90 /* Main.storyboard */,
 				42D6829E1E2230A900018F90 /* Assets.xcassets */,
 				42D682A01E2230A900018F90 /* LaunchScreen.storyboard */,
@@ -165,9 +180,12 @@
 			files = (
 				42D682AE1E2254EE00018F90 /* Son.m in Sources */,
 				42D682971E2230A900018F90 /* ViewController.m in Sources */,
+				427FFA861EA4567B00D12696 /* UIViewController+Extension.m in Sources */,
 				42D682941E2230A900018F90 /* AppDelegate.m in Sources */,
 				42D682911E2230A900018F90 /* main.m in Sources */,
 				42D6829D1E2230A900018F90 /* TTRuntimeDemo.xcdatamodeld in Sources */,
+				427FFA8C1EA45BCA00D12696 /* TTThirdViewController.m in Sources */,
+				427FFA891EA45BBD00D12696 /* TTSecondViewController.m in Sources */,
 				42D682AB1E22316B00018F90 /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +343,7 @@
 				42D682A81E2230A900018F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
